@@ -22,7 +22,7 @@ node-counterparty is a simple wrapper for the Bitcoin client's JSON-RPC API.
 If starting a new project, I highly encourage you to take a look at the more modern modules.
 
 The API is equivalent to the API document [here](http://counterparty.io/docs/api/).
-The methods are exposed as lower camelcase methods on the `bitcoin.Client`
+The methods are exposed as lower camelcase methods on the `counterparty.Client`
 object, or you may call the API directly using the `cmd` method.
 
 ## Install
